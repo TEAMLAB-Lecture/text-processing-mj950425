@@ -53,7 +53,7 @@ def normalize(input_string):
 
 
 def no_vowels(input_string):
-    vowels = ["a","e","i","o","u"]
+    vowels = ["a","e","i","o","u","A","E","I","O","U"]
     input_string = list(input_string)
     for i in range(len(input_string)-1,-1,-1):
         if input_string[i] in vowels:
